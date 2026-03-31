@@ -74,7 +74,7 @@ const ProductCard: React.FC<ProductCardProps> = ({
         </h3>
 
         <div className="flex items-center justify-between gap-2">
-          <p className="text-cora-black font-semibold text-sm tracking-tight">
+          <p className="text-cora-black font-semibold text-sm tracking-tight [font-variant-numeric:tabular-nums]">
             {formatPrice(product.price)}
           </p>
 
